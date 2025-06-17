@@ -5,9 +5,16 @@
     box-sizing: border-box;
 }
 
+.container {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 0 60px;
+}
+
+
 .header {
     background-color: #1f2937;
-    padding: 40px 20px;
+    padding: 30px 0 10px 0;
 }
 
 .header .container {
@@ -39,15 +46,34 @@ ul {
     justify-content: space-between;
     background-color: #1f2937;
     color: #F9FAF8;
-    padding: 40px;
+    padding: 40px 0;
     gap: 40px; 
 }
 
+.hero-text {
+  display: flex;
+  flex-direction: column;
+}
+
+.hero-text h1 {
+  margin-bottom: 8px;
+}
+
+.hero-text p {
+  color: #E5E7EB;
+  font-size: 16px;
+  margin-bottom: 16px;
+}
+
+.hero-text button {
+  align-self: flex-start;
+}
+
 .hero-content {
+  max-width: 900px;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  
   gap: 40px;
 }
 
