@@ -57,7 +57,7 @@ ul {
     justify-content: space-between;
     background-color: #1f2937;
     color: #F9FAF8;
-    padding: 40px 0;
+    padding: 40px 0 60px 0;
     gap: 40px; 
 }
 
@@ -160,3 +160,11 @@ button {
     line-height: 1.6;
 }
 
+.footer {
+    font-size: 13px;
+    font-weight: 10;
+    background-color: #1F2937;
+    color: #E5E7EB;
+    padding: 15px 0px;
+    text-align: center;
+}
