@@ -128,6 +128,35 @@ button {
 
 .feature-cards p {
     color: rgb(93, 93, 93);
+    font-size: 14px;
 }
 
+.features .container {
+    padding-bottom: 60px;
+}
+
+.quote {
+    background-color: #E5E7EB;
+    padding: 60px 0px;
+}
+
+.quote .by {
+    font-weight: bold;
+    text-align: right;
+    font-size: 18px;
+}
+
+.quote .quote-text {
+    padding: 0px 100px;
+}
+
+.quote blockquote {
+    font-size: 26px;
+    font-style: italic;
+    font-weight: 100;
+    color: #1F2937;
+    max-width: 700px;
+    margin: 0 auto;
+    line-height: 1.6;
+}
 
