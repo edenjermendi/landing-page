@@ -103,5 +103,17 @@ button {
   margin-bottom: 20px;
 }
 
+.feature-cards {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 12px;
+}
+
+.card {
+  width: 150px;
+  text-align: center;
+}
 
 
