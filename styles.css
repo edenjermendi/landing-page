@@ -17,20 +17,21 @@ img {
 }
 
 .container {
-  max-width: 900px;
-  margin: 0 auto;
-  padding: 0 60px;
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 0 60px;
 }
 
 .header {
     background-color: #1f2937;
     padding-top: 20px;
+    padding-bottom: 30px;
 }
 
 .header .container {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
 .logo {
@@ -61,30 +62,30 @@ ul {
 }
 
 .hero-text {
-  display: flex;
-  flex-direction: column;
+    display: flex;
+    flex-direction: column;
 }
 
 .hero-text h1 {
-  margin-bottom: 8px;
+    margin-bottom: 8px;
 }
 
 .hero-text p {
-  color: #E5E7EB;
-  font-size: 16px;
-  margin-bottom: 16px;
+    color: #E5E7EB;
+    font-size: 16px;
+    margin-bottom: 16px;
 }
 
 .hero-text button {
-  align-self: flex-start;
+    align-self: flex-start;
 }
 
 .hero-content {
-  max-width: 900px;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  gap: 40px;
+    max-width: 900px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 40px;
 }
 
 button {
@@ -95,12 +96,12 @@ button {
 }
 
 .features {
-    background-color: #F9FAF8;
+    background-color: #ffffff;
     padding: 40px 0px;
 }
 .features h2 {
-  text-align: center;
-  margin-bottom: 20px;
+    text-align: center;
+    margin-bottom: 40px;
 }
 
 .feature-cards {
@@ -108,12 +109,25 @@ button {
     flex-direction: row;
     justify-content: center;
     flex-wrap: wrap;
-    gap: 12px;
+    gap: 42px;
 }
 
 .card {
-  width: 150px;
-  text-align: center;
+    width: 120px;
+    text-align: center;
+}
+
+.placeholder {
+    width: 120px;
+    height: 120px;
+    border-width: 12px;
+    border: 3px solid #3882F6;
+    border-radius: 13px;
+    margin-bottom: 12px;
+}
+
+.feature-cards p {
+    color: rgb(93, 93, 93);
 }
 
 
