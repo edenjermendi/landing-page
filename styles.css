@@ -177,6 +177,7 @@ ul {
   border: 3px solid var(--color-accent-primary);
   border-radius: 13px;
   margin-bottom: 12px;
+  background-color: var(--color-neutral-light);
 }
 
 .feature-cards p {
@@ -291,5 +292,5 @@ button {
 }
 
 .cta-button:hover {
-  background-color: darkred;
+  background-color: var(--color-neutral-dark);
 }
