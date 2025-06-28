@@ -1,11 +1,11 @@
 /* BASE STYLES */
 :root {
-  --color-dark-bg: #1A1423;         /* deeper, richer purple-black */
+  --color-dark-bg: #1A1423;         
   --color-light-bg: #FFFFFF;
-  --color-hero-text: #A3B3E1;       /* refined, softer lavender */
-  --color-body-text: #B0AEBF;       /* soft warm grey */
-  --color-accent-primary: #6F4A8E;  /* muted royal purple */
-  --color-accent-cta: #D94C6B;      /* modern pink-red instead of orange */
+  --color-hero-text: #A3B3E1;       
+  --color-body-text: #B0AEBF;       
+  --color-accent-primary: #6F4A8E; 
+  --color-accent-cta: #D94C6B;      
 
   /* Neutrals */
   --color-neutral-light: #F2F2F2;
@@ -128,21 +128,24 @@ ul {
 }
 
 .hero-text button {
-  font-weight: 600;
-  background-color: var(--color-accent-primary);
-  color: var(--color-dark-bg);
+  background: linear-gradient(135deg, #563775, #8C68B8);
+  color: var(--color-white);
   padding: 12px 32px;
-  border: none;
-  border-radius: 8px;
   font-size: 16px;
+  border: 2px solid rgba(163, 179, 225, 0.4);
+  border-radius: 8px;
+  box-shadow: 0 0 12px rgba(163, 179, 225, 0.4);
   cursor: pointer;
-  box-shadow: 0 0 12px rgba(163, 179, 225, 0.5);
-  transition: background-color 0.3s ease;
+  transition:
+    background 0.3s ease,
+    box-shadow 0.3s ease,
+    transform 0.2s ease;
 }
 
 .hero-text button:hover {
-  background-color: var(--color-accent-cta);
-  color: var(--color-white);
+  background: linear-gradient(135deg, #6F4A8E, #A982D1);
+  box-shadow: 0 0 20px rgba(163, 179, 225, 0.6);
+  transform: scale(1.05);
 }
 
 
