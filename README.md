@@ -2,7 +2,7 @@
 
 Hi, I’m Eden 👋
 
-This is my personal landing page where I’m learning to code and slowly customizing things to reflect myself and my future freelance brand.
+This is my personal [landing page](https://edenjermendi.github.io/landing-page/) where I’m learning to code and slowly customizing things to reflect myself and my future freelance brand.
 
 ---
 
