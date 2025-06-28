@@ -5,7 +5,7 @@
   --color-hero-text: #A3B3E1;       /* refined, softer lavender */
   --color-body-text: #B0AEBF;       /* soft warm grey */
   --color-accent-primary: #6F4A8E;  /* muted royal purple */
-  --color-accent-cta: #EF476F;      /* modern pink-red instead of orange */
+  --color-accent-cta: #D94C6B;      /* modern pink-red instead of orange */
 
   /* Neutrals */
   --color-neutral-light: #F2F2F2;
@@ -14,7 +14,6 @@
   /* Text */
   --color-white: #FFFFFF;
 }
-
 
 * {
   font-family: 'Roboto', sans-serif;
@@ -243,26 +242,11 @@ button {
   cursor: pointer;
 }
 
-.cta-button {
-  margin-top: 16px;
-  background-color: var(--color-accent-cta);
-  color: var(--color-white);
-  padding: 12px 32px;
-  font-size: 16px;
-  border: none;
-  border-radius: 8px;
-  transition: background-color 0.3s ease;
-}
-
-.cta-button:hover {
-  background-color: darkred;
-}
-
 /* CALL TO ACTION */
 
 .call-to-action {
-  color: var(--color-dark-bg);
   margin: 60px 0;
+  /* remove color here—it should inherit text colors from cta-content */
 }
 
 .cta-content {
@@ -283,8 +267,29 @@ button {
   gap: 2px;
 }
 
+.cta-text h3 {
+  color: var(--color-light-bg);
+  margin: 0;
+}
+
 .cta-text p {
   font-size: 14px;
-  color: var(--color-body-text);
+  color: var(--color-neutral-light);
   margin: 0;
+}
+
+/* Move button styling here for easy access */
+.cta-button {
+  margin-top: 16px;
+  background-color: var(--color-accent-cta);
+  color: var(--color-white);
+  padding: 12px 32px;
+  font-size: 16px;
+  border: none;
+  border-radius: 8px;
+  transition: background-color 0.3s ease;
+}
+
+.cta-button:hover {
+  background-color: darkred;
 }
