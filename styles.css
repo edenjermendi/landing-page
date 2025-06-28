@@ -248,19 +248,20 @@ button {
 
 .call-to-action {
   margin: 60px 0;
-  /* remove color here—it should inherit text colors from cta-content */
 }
 
 .cta-content {
   background-color: var(--color-accent-primary);
-  border-radius: 6px;
-  padding: 30px 40px;
+  border-radius: 8px;
+  padding: 40px;
   display: flex;
-  justify-content: space-between;
+  flex-direction: column;
   align-items: center;
-  flex-wrap: nowrap;
+  justify-content: center;
   gap: 20px;
+  text-align: center;
 }
+
 
 .cta-text {
   display: flex;
@@ -281,17 +282,23 @@ button {
 }
 
 .cta-button {
-  margin-top: 16px;
-  background-color: var(--color-accent-cta);
+  background: linear-gradient(135deg, #6F4A8E, #A982D1);
   color: var(--color-white);
-  padding: 12px 32px;
+  padding: 14px 40px;
   font-size: 16px;
-  border: 2px solid var(--color-accent-primary);
+  border: 2px solid rgba(163, 179, 225, 0.4);
   border-radius: 8px;
-  box-shadow: 0 0 14px rgba(188, 192, 255, 0.611);
-  transition: background-color 0.3s ease;
+  box-shadow: 0 0 8px rgba(163, 179, 225, 0.3);
+  cursor: pointer;
+  transition:
+    background 0.3s ease,
+    box-shadow 0.3s ease,
+    transform 0.2s ease;
 }
 
 .cta-button:hover {
-  background-color: var(--color-neutral-dark);
+  background: linear-gradient(135deg, #563775, #8C68B8);
+  box-shadow: 0 0 12px rgba(163, 179, 225, 0.4);
+  transform: scale(1.05);
 }
+
