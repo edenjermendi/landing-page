@@ -1,4 +1,4 @@
-# edenDev Landing Page
+# eden j. Landing Page
 
 Hi, I’m Eden 
 
