@@ -136,6 +136,7 @@ ul {
   border-radius: 8px;
   font-size: 16px;
   cursor: pointer;
+  box-shadow: 0 0 12px rgba(163, 179, 225, 0.5);
   transition: background-color 0.3s ease;
 }
 
@@ -181,7 +182,7 @@ ul {
 }
 
 .feature-cards p {
-  color: var(--color-body-text);
+  color: #696570;
   font-size: 18px;
 }
 
@@ -279,15 +280,15 @@ button {
   margin: 0;
 }
 
-/* Move button styling here for easy access */
 .cta-button {
   margin-top: 16px;
   background-color: var(--color-accent-cta);
   color: var(--color-white);
   padding: 12px 32px;
   font-size: 16px;
-  border: none;
+  border: 2px solid var(--color-accent-primary);
   border-radius: 8px;
+  box-shadow: 0 0 14px rgba(188, 192, 255, 0.611);
   transition: background-color 0.3s ease;
 }
 
