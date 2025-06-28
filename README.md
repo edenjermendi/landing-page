@@ -1,12 +1,12 @@
 # edenDev Landing Page
 
-Hi, I’m Eden 👋
+Hi, I’m Eden 
 
 This is my personal [landing page](https://edenjermendi.github.io/landing-page/) where I’m learning to code and slowly customizing things to reflect myself and my future freelance brand.
 
 ---
 
-## 🌱 About This Project
+## About This Project
 
 This page started as a basic landing page from [The Odin Project](https://www.theodinproject.com/) curriculum. Since then, I’ve been:
 
@@ -20,7 +20,7 @@ Everything you see here is part of me learning and practicing web development fr
 
 ---
 
-## 🚧 Still To Do
+## Still To Do
 
 I’m still actively working on this page. Some things I plan to add next:
 
@@ -32,7 +32,7 @@ I’m still actively working on this page. Some things I plan to add next:
 
 ---
 
-## 💻 Tech Used
+## Tech Used
 
 - HTML5
 - CSS3 (vanilla, no frameworks)
@@ -41,7 +41,7 @@ I’m still actively working on this page. Some things I plan to add next:
 
 ---
 
-## ✨ My Coding Journey So Far
+## My Coding Journey So Far
 
 I’m teaching myself to code and eventually plan to start freelancing. I’m currently working through:
 - HTML & CSS
