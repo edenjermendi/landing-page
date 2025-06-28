@@ -1,21 +1,20 @@
 /* BASE STYLES */
-
 :root {
-  /* Color Palette */
-  --color-dark-bg: #230C33;
-  --color-light-bg: #ffffff;
-  --color-hero-text: #adb9e3;
-  --color-body-text: #5D5D5D;
-  --color-accent-primary: #E7BB41;
-  --color-accent-cta: #F24236;
+  --color-dark-bg: #1A1423;         /* deeper, richer purple-black */
+  --color-light-bg: #FFFFFF;
+  --color-hero-text: #A3B3E1;       /* refined, softer lavender */
+  --color-body-text: #B0AEBF;       /* soft warm grey */
+  --color-accent-primary: #6F4A8E;  /* muted royal purple */
+  --color-accent-cta: #EF476F;      /* modern pink-red instead of orange */
 
   /* Neutrals */
-  --color-neutral-light: #f1eef5;
-  --color-neutral-dark: #1F2937;
+  --color-neutral-light: #F2F2F2;
+  --color-neutral-dark: #2E2B3A;
 
   /* Text */
-  --color-white: #F9FAF8;
+  --color-white: #FFFFFF;
 }
+
 
 * {
   font-family: 'Roboto', sans-serif;
